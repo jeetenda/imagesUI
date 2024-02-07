@@ -1,16 +1,17 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import SearchResults from "../components/SearchResults";
+import Footer from "../components/Footer";
+
 
 const Results = () => {
   return (
-    <div className="h-screen w-screen">
-      <div className="h-16">
-        <Navbar />
-      </div>
-      <div className=" h-[calc(100vh-4rem)]">
+    <div className="h-screen w-screen flex flex-col">
+      <Navbar />
+      <div className="flex-1">
         <SearchResults />
       </div>
+     <Footer/>
     </div>
   );
 };
