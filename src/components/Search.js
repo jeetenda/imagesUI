@@ -47,6 +47,8 @@ const Search = () => {
 
   const navigatepage = () => {
     // navigate('/results', { state: { filteredSuggestions } });
+     navigate('/results');
+
   }
   return (
     <div className="flex justify-center items-center h-full">
